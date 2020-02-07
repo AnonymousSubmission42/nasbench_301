@@ -1,0 +1,6 @@
+{
+  "NetworkSelectorDatasetInfo:darts:init_channels": {
+    "type": "list",
+    "data": [8, 11, 15, 20, 37, 50]
+  }
+}

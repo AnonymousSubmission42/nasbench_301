@@ -1,0 +1,59 @@
+{
+  "train_val_test_split_diagonal": {
+    "train": 0.7,
+    "val": 0.2,
+    "test": 0.1,
+    "filepath_regex": "run_*/results_fidelity_*/results_*.json",
+    "type": "per_budget_equal_result_paths"
+  },
+  "train_val_test_split_random": {
+    "train": 0.7,
+    "val": 0.2,
+    "test": 0.1,
+    "filepath_regex": "random_fidelities",
+    "type": "per_subfolder_equal_ratio"
+  },
+  "fidelity_cube_edges": {
+    "train": 0.7,
+    "val": 0.2,
+    "test": 0.1,
+    "filepath_regex": "groundtruths/edges",
+    "type": "per_subfolder_equal_ratio"
+  },
+  "re_rs": {
+    "train": 0.7,
+    "val": 0.2,
+    "test": 0.1,
+    "filepath_regex": "groundtruths/re_rs",
+    "type": "per_subfolder_equal_ratio"
+  },
+  "darts": {
+    "train": 0.7,
+    "val": 0.2,
+    "test": 0.1,
+    "filepath_regex": "groundtruths/darts",
+    "type": "per_subfolder_equal_ratio"
+  },
+  "low_parameter": {
+    "train": 0.7,
+    "val": 0.2,
+    "test": 0.1,
+    "filepath_regex": "groundtruths/low_parameter/*/results_*.json",
+    "type": "all_result_paths"
+  },
+  "darts_trajectories": {
+    "train": 0.7,
+    "val": 0.2,
+    "test": 0.1,
+    "filepath_regex": "groundtruths/trajectories/space_1/darts/*/results_*.json",
+    "type": "all_result_paths"
+  },
+  "darts_trajectories": {
+    "train": 0.7,
+    "val": 0.2,
+    "test": 0.1,
+    "filepath_regex": "groundtruths/trajectories/space_1/darts_lowparameter/*/results_*.json",
+    "type": "all_result_paths"
+  },
+  "report_freq": 100
+}
